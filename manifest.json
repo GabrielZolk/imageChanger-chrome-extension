@@ -1,0 +1,16 @@
+{
+    "name": "ImageChanger",
+    "description": "My first Extension by Zolk",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["activeTab", "scripting"],
+    "icons": {
+        "16": "changer-icon.png",
+        "32": "changer-icon.png",
+        "48": "changer-icon.png",
+        "128": "changer-icon.png"
+    },
+    "action": {
+        "default_popup": "index.html"
+    }
+}
